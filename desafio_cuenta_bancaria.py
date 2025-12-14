@@ -43,7 +43,6 @@ def crear_cliente():
 
 mi_cliente = crear_cliente()
 print(mi_cliente)
-opcion = 'd'
 
 while True:
     op = input("\n[D] Depositar\n[R] Retirar\n[S] Salir\n>>> Seleccione opción: ").upper()
